@@ -666,8 +666,12 @@ address {
 }
 
 .modal-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
   width: 100%;
+}
+
+.modal-field-textarea {
+  margin-bottom: 24px;
 }
 
 .input-wrapper {
@@ -762,7 +766,6 @@ address {
   border: 1px solid rgba(46, 47, 66, 0.4);
   width: 16px;
   height: 16px;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
