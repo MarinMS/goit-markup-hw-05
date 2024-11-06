@@ -634,11 +634,13 @@ address {
 .modal-btn-close:hover {
   background-color: #404bbf;
   outline: transparent;
+  border: none;
 }
 
 .modal-btn-close:focus {
   background-color: #404bbf;
   outline: transparent;
+  border: none;
 }
 
 .modal-btn-close:hover .icon-close {
@@ -666,11 +668,15 @@ address {
 }
 
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   width: 100%;
 }
 
 .modal-field-textarea {
+  margin-bottom: 16px;
+}
+
+.modal-field-check {
   margin-bottom: 24px;
 }
 
@@ -759,6 +765,10 @@ address {
   text-decoration-skip-ink: none;
   color: #4d5ae5;
   cursor: pointer;
+}
+
+.user-privacy-span {
+  display: inline-flex;
 }
 
 .modal-check-text span {
